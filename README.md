@@ -38,6 +38,7 @@ This project aims to predict house prices using crime and education data. We uti
   
 ## Camp Summary :
 # Arctic-Summer-Camp-2024
+#### Exploring scientific computing through coding, data analysis, and computational modeling at GSU
 ### Day 1 
 - 9.00 AM – 9.30 AM: Introduction & Logistic 
 - 9.30 AM – 10.10 AM: Python basis
