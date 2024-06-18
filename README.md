@@ -1,3 +1,42 @@
+# House Price Prediction based on Crime and Education Data
+
+This project aims to predict house prices using crime and education data. We utilize data retrieved from the FBI API for crime statistics, perform geocoding to convert latitude and longitude to zip codes, and integrate this data with existing education and house data.
+
+## Steps Involved:
+
+1. **Crime Data Retrieval and CSV Saving**:
+   - Utilized FBI API to fetch crime data.
+   - Saved the retrieved data into a CSV file (`crime_data.csv`).
+
+2. **Geocoding for Zip Code Addition**:
+   - Converted latitude and longitude data to zip codes using geocoding techniques.
+   - Added a `zipcode` column to the crime data CSV.
+
+3. **Data Cleaning and Preparation**:
+   - Cleaned education and house data CSV files (`education_data.csv`, `house_data.csv`).
+   - Merged cleaned data with the crime data based on zip codes.
+
+4. **Machine Learning Model Training**:
+   - Initially attempted Linear Regression but found it ineffective.
+   - Applied RandomForestRegressor for house price prediction.
+
+## Files Included:
+- `arrests_data.csv`: Contains crime statistics fetched from FBI API.
+- `education_data.csv`: Existing education data.
+- `house_data.csv`: Existing house price data.
+
+## Technology:
+- python
+- numpy
+- pandas
+- arcgis
+- Sklearn
+- Matplotlib
+- Api
+- seaborn
+
+  
+## Camp Summary :
 # Arctic-Summer-Camp-2024
 ### Day 1 
 - 9.00 AM – 9.30 AM: Introduction & Logistic 
